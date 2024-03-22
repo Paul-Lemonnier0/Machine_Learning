@@ -1,4 +1,4 @@
-# Détéction de Kanji
+# Détection de Kanji
 
 Implémentation d'algorithme pour la détéction de kanji écris à la main
 
