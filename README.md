@@ -5,6 +5,7 @@ Implémentation d'algorithme pour la détéction de kanji écris à la main
 ## Description
 
 Dans ce répertoire, plusieurs algorithme de Deep Learning sont implémentés.  
+   
 L'objectif principal est, grâce à un jeu de données (kanji_train_data.csv associé à kanji_target_data.csv), effectuer des prévisions sur l'appartenant d'un kanji manuscrit à une classe.  
 
 ## Algorithmes implémentés
