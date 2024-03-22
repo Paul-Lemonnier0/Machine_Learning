@@ -10,7 +10,7 @@ L'objectif principal est, grâce à un jeu de données (kanji_train_data.csv ass
 
 ## Algorithmes implémentés
 
-K-plus proches voisins (K-voisins.py) (95% de réussite, voir le graphe Kanji_data-NN.py pour le k le plus performant (ici 1))  
+K-plus proches voisins (**K-voisins.py**) (95% de réussite, voir le graphe Kanji_data-NN.py pour le k le plus performant (ici 1))  
 Régression logistique multivariée (Regression_log.py) (70% de réussite)  
 Réseau de neurones linéaire (Reseau_neurones_lineaires.py) (85% de réussite)  
 Réseau neuronal convolutif (CNN_torch.py) (97,5% de réussite)  
