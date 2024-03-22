@@ -36,5 +36,5 @@ Enlever les appels .cpu()
 
 ## Auteur
 
-ex. Paul Lemonnier  
-ex. paul.lemonnier49070@gmail.com
+Paul Lemonnier  
+paul.lemonnier49070@gmail.com
