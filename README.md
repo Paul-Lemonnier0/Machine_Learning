@@ -1,62 +1,40 @@
-# Project Title
+# Détéction de Kanji
 
-Simple overview of use/purpose.
+Implémentation d'algorithme pour la détéction de kanji écris à la main
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Dans ce répertoire, plusieurs algorithme de Deep Learning sont implémentés.
+L'objectif principal est, grâce à un jeu de données (kanji_train_data.csv associé à kanji_target_data.csv), effectuer des prévisions sur l'appartenant d'un kanji manuscrit à une classe.
 
-## Getting Started
+## Algorithmes implémentés
 
-### Dependencies
+K-plus proches voisins (K-voisins.py) (95% de réussite, voir le graphe Kanji_data-NN.py pour le k le plus performant (ici 1))
+Régression logistique multivariée (Regression_log.py) (70% de réussite)
+Réseau de neurones linéaire (Reseau_neurones_lineaires.py) (85% de réussite)
+Réseau neuronal convolutif (CNN_torch.py) (97,5% de réussite)
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Un kanji (ou plusieurs) peut-être afficher grâce à ce script : affichage-kanji.py
 
-### Installing
+## Utilisation
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+-Dézipper le dossier Kanji_Data.zip
+-Placer les 4 fichiers dans le même dossier que les scripts
+-Compiler le programme voulu (ils sont de base programmé pour être utiliser sur un GPU, voir la partie "device" et la changer en CPU si cela pose problème. Il faudra aussi enlever les .cpu())
 
 ## Help
 
-Any advise for common problems or issues.
+GPU introuvable :
+
 ```
-command to run if program contains helper info
+Passer la variable device de cuda:0 à cpu
+Enlever les appels .cpu()
+
+/!\ l'éxécution du programme est beaucoup plus lente sur cpu
+
 ```
 
-## Authors
+## Auteur
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+ex. Paul Lemonnier  
+ex. paul.lemonnier49070@gmail.com
