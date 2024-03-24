@@ -17,6 +17,17 @@ L'objectif principal est, grâce à un jeu de données (**kanji_train_data.csv**
 
 Un kanji (ou plusieurs) peut-être afficher grâce à ce script : **affichage-kanji.py**   
 
+## Librairies Utilisées
+
+Ce projet utilise les librairies suivantes pour l'implémentation des algorithmes de Deep Learning :
+
+- **PyTorch**: Utilisé pour la création et l'entraînement des réseaux de neurones linéaires et convolutifs.
+- **NumPy**: Utilisé pour le traitement efficace des données numériques et la manipulation des tableaux.
+- **Pandas**: Utilisé pour la manipulation et l'analyse des données, notamment pour charger les jeux de données CSV.
+- **Matplotlib**: Utilisé pour la visualisation des données et des résultats, notamment pour afficher des graphiques et des images.
+
+Assurez-vous d'avoir installé ces librairies sur votre machine avant d'exécuter les scripts du projet.
+
 ## Utilisation
 
 - Dézipper le dossier **Kanji_Data.zip**  
